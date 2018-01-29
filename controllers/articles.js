@@ -17,4 +17,4 @@ router.get("/:id", function(req, res){
 
 // app.post 
 
-module.export = router;
+module.exports = router;

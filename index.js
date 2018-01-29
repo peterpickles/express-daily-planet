@@ -19,7 +19,7 @@ app.get("/articles", function(req, res){
 	res.render("./article/index.ejs");
 });
 
-app.get("/contact", function(req, res){
+ app.get("/contact", function(req, res){
 	// res.send("this is my contacts page");
 	res.render("./site/contact");
 });
@@ -30,4 +30,6 @@ app.get("/about", function(req, res){
 });
 
 app.use("/articles", require("./controllers/articles"));
+
+
 app.listen(3000);
